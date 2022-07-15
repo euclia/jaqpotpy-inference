@@ -29,7 +29,7 @@ class ModelHandler(tornado.web.RequestHandler):
             results['DOA'] = [None for _ in range(len(model.prediction))]
 
         if model.probability:
-            results['Probabilities'] = [prob.tolist() for prob in model.probability]
+            results['Probabilities'] = [prob for prob in model.probability]
         else:
             results['Probabilities'] = [[] for _ in range(len(model.prediction))]
 
