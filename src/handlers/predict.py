@@ -20,7 +20,7 @@ class ModelHandler(tornado.web.RequestHandler):
         if isinstance(model.prediction[0], list):
             results = {model.Y[i]: [item[i] for item in model.prediction] for i in range(len(model.prediction[0]))}
         else:
-            results = {model.Y[0]: [item for item in model.prediction]}
+            results = {model.Y: [item for item in model.prediction]}
 
 
         if model.doa:
