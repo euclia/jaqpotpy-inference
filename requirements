@@ -1,0 +1,6 @@
+torch
+jaqpotpy
+tqdm
+skl2onnx
+onnxruntime
+matplotlib
