@@ -1,6 +1,6 @@
-torch
-jaqpotpy
-tqdm
-skl2onnx
-onnxruntime
-matplotlib
+torch==1.13.0
+jaqpotpy==1.0.82
+tqdm==4.64.1
+skl2onnx==1.13.0
+onnxruntime==1.13.1
+matplotlib==3.6.2

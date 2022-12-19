@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.10
 MAINTAINER Jason Sotiropoulos <jasonsoti1@gmail.com>
 MAINTAINER Pantelis Karatzas <pantelispanka@gmail.com>
 
